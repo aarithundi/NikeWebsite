@@ -1,0 +1,138 @@
+.page-header
+{
+	margin-top: 0px;
+}
+
+.panel-body
+{
+	padding-top: 0px;
+}
+
+.featureImg
+{
+	margin-bottom: 20px
+}
+
+
+#text
+{
+	width: 100%;
+	height: 200px;
+}
+
+#jumbotronHeader
+{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+#jumbotronText
+{
+	font-family: monospace;
+	color: white;
+}
+
+.jumbotron
+{
+	background-color: #FF6600;
+	border: 2px solid darkred;
+}
+
+#playnewimg
+{
+	margin-bottom: 10px;
+}
+
+#nikelogo
+{
+	margin-top: none;
+	padding-bottom: 5px;
+	padding-top: none;
+	position: absolute; top: 0px;
+}
+
+#contactmessage
+{
+	margin-top: 5px;
+	color: darkgray;
+}
+
+#playnewH1{
+	font-family: monospace;
+	color: black;
+}
+
+#airmaxH1{
+	font-family: monospace;
+	color: black;
+}
+
+#playnewJ
+{
+	border: 2px solid black;
+	background-color: skyblue;
+}
+
+#airmaxJ
+{
+	border: 2px solid black;
+	background-color: orangered;
+}
+
+.row{
+	height: auto;
+}
+
+.col-md-4
+{
+	margin-bottom: 100px;
+}
+
+#thirtypercent
+{
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.navbar-brand
+{
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 20pt;
+	color: orangered;
+}
+
+#priceone
+{
+	color: black;
+}
+
+#airmaxbox
+{
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 0px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 30px 30px 30px 30px;
+}
+
+#playnew
+{
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 0px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 30px 30px 30px 30px;
+
+}
+
+#gif
+{
+	padding-left: 20px;
+}

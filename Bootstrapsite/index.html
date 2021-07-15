@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href = "styles.css" rel = "stylesheet">
+</head>
+<body>
+	<div class = "navbar navbar-default navbar-static-top">
+		<div class = "container">
+			<a href="index.html" class="navbar-brand"><img src="nikelogotrans.png" id="nikelogo" width="70px" height="60px"></a>
+
+			<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<div class="collapse navbar-collapse navHeaderCollapse">
+
+				<ul class="nav navbar-nav navbar-right">
+
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="newreleases.html">New Releases</a></li>
+
+					<li class="dropdown">
+
+						<a href="#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="https://www.instagram.com/nike/?hl=en">Instagram</a></li>
+							<li><a href="https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+							<li><a href="https://www.facebook.com/nike/">Facebook</a></li>
+
+
+						</ul>
+
+					</li>
+
+
+
+					<li><a href="articles.html">Articles</a></li>
+					<li><a href="#contact" data-toggle="modal">Contact Us</a></li>
+					
+
+				</ul>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="container">
+
+		<div class="jumbotron">
+			<center>
+
+				<h1 id="jumbotronHeader">Nike, Just Do It.</h1>
+				<p id="jumbotronText">Shop our new Nike x Space Jam products now!</b></p>
+				<a class = "btn btn-danger" href="shopplaynew.html">Shop now</a>
+				<a class="btn btn-info" href="https://twitter.com/Nike?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Tweet it</a>
+			</center>
+		</div>
+
+	</div>
+
+
+	<div class = "container">
+		<div class="row">
+			<div class = "col-md-4">
+
+				<h3> <a href="article1.html"> New Air Max Releases</a></h3>
+				<img src="airmaxdrops.jpg" width="300px" height="200px">
+				<br><br>
+				<p>On March 26, 1987, Nike debuted its first sneaker showcasing the Swoosh’s now iconic Air technology through a side-visibility window — the Air Max 1. Thirty-three years later, and with the continual ingenuity of Nike Air by way of Air Manufacturing Innovation, the company still celebrates the revolutionary cushioning platform on the release date of its first shoe... 
+				</p>
+
+				<a href="article1.html" class="btn btn-default">Read about it</a>
+			</div>
+
+			<div class = "col-md-4">
+
+				<h3> <a href="article2.html">Lebron James and Kylian Mbappe partner to create new apparel</a></h3>
+				<img src="kxL.jpg" width="300px" height="250px">
+				<br><br>
+				<p>The Chosen 2 pack contains both basketball and football footwear, which highlights the impact that both James and Mbappé will have on the next generation...	
+				</p>
+
+				<a href="article2.html" class="btn btn-default">Read about it</a>
+			</div>
+
+			<div class="col-md-4">
+
+				<h3 id="newNikePlay"><a href="shopplaynew.html">Shop exclusive new Space Jam Products</a></h3>
+				<img src="nsj.jpg" id="playnewimg" width="350px">
+				<br>
+				<h2 id="thirtypercent">30% OFF</h2>	
+				<br>
+				<a href="shopplaynew.html" class="btn btn-default">Check it out</a>
+
+			</div>
+
+			
+
+		</div>
+
+	</div>
+
+	<div class="navbar navbar-default navbar-fixed-bottom">
+
+		<div class="container">
+			<p class="navbar-text pull-left">Site built by Aarit</p>
+			<a href = "https://www.nike.com/"class = "navbar-btn btn-danger btn pull-right">Offical Nike Page</a>
+		</div>
+
+	</div>
+
+	<div class = "modal fade" id="contact" role="dialoug">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<form class="form-horizontal">
+					<div class="modal-header">
+						<h4>Contact Nike Support</h4>
+
+						<div class="modal-body">
+
+							<div class="form-group">
+								<label for="contact-name" class="col-lg-2 control-label">Name:</label>
+								<div class="col-lg-10">
+									<input type="text" class="form-control" id="contact-name" placeholder="Enter name">
+
+								</div>
+							</div>
+
+
+						<div class="form-group">
+							<label for="contact-email" class="col-lg-2 control-label">Email:</label>
+							<div class="col-lg-10">
+								<input type="email" class="form-control" id="contact-email" placeholder="Enter email">
+
+							</div>
+						</div>							
+						
+						<div class="form-group">
+							<label for="contact-message" class="col-lg-2 control-label">Message:</label>
+							<div class="col-lg-10">
+								<textarea id="text"></textarea>
+
+						<p id="contactmessage">Our communications staff here at nike will try our best to respond to any emails with 5 business days. Thank you for your patience!</p>
+
+							</div>
+						</div>
+
+						</div>
+						<div class="modal-footer">
+							<a class="btn btn-default" data-dismiss = "modal">Close</a>
+						<button class="btn btn-primary" type="submit">Send</button>
+						</div>
+				</form>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
