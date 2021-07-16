@@ -136,3 +136,8 @@
 {
 	padding-left: 20px;
 }
+
+.navbar navbar-default navbar-fixed-bottom
+{
+	margin-top: 30px;
+}
